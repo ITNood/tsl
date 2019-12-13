@@ -1,0 +1,93 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="hearder">
+    <view class="banner">
+    <swiper class="swiper" indicator-dots="{{indicatorDots}}"indicator-color="{{indicatorColor}}" indicator-active-color="#41a0f7" >
+         <block wx:for="{{imgUrls}}" wx:key="index">
+          <swiper-item>
+               <image style="width:100%"  src="{{item}}"></image>
+          </swiper-item> 
+        </block>
+    </swiper>
+  </view>
+  <view class="hear">
+             <input  class="searchinput" value="{{ value }}"  autofocus placeholder="搜索职业或企业名称" />
+            <view class='right'><image class="sosuo" src="/static/image/sosuo.png"></image> </view>
+  </view>
+    <view class="title">
+      <view class='titleleft'></view>
+      <view class="titletight">职位招聘</view>
+    </view>
+    <view class="address">
+      <picker mode="multiSelector" bindchange="bindMultiPickerChange"  value="{{multiIndex}}" range="{{multiArray}}">
+      <view class="picker">
+         <view class="addleft" >{{multiArray[0][multiIndex[0]]}} <i-icon type="unfold" size="25" color="black" />  </view>
+          <view class="addleft">{{multiArray[1][multiIndex[1]]}}  <i-icon type="unfold" size="25" color="black" /> </view>
+      </view>
+    </picker>
+    </view>
+    <view style=" border-bottom: 5px solid #f6f6f6;"> </view>
+  <view>
+      <view class="massage"  bindtap="godetails">
+        <view class="mascontent">
+
+          <view class="clearfloat">
+            <view class="leftmsg masname">普工</view>
+            <view class="rightmsg masprice"> 400-5000/月</view>
+          </view>
+
+
+          <view class="clearfloat">
+            <view class="leftmsg">
+                  <view class="msgfuli" style="  display: inline-block">s123123</view>
+                  <view class="msgfuli" style="  display: inline-block">456789</view>
+
+            </view>
+            <view class="rightmsg msgjifen"> 反2000积分</view>
+          </view>
+
+
+          <view class="clearfloat">
+            <view class="leftmsg msgoffice">深圳富士康有限公司</view>
+            <view class="rightmsg msgaddress"> 深圳福田区</view>
+          </view>
+
+      </view>
+      </view>
+     <view style=" border-bottom: 5px solid #f6f6f6;"> </view>
+  </view>
+   <view>
+
+
+      <view class="massage"  bindtap="godetails">
+        <view class="mascontent">
+
+          <view class="clearfloat">
+            <view class="leftmsg masname">普工</view>
+            <view class="rightmsg masprice"> 400-5000/月</view>
+          </view>
+
+
+          <view class="clearfloat">
+            <view class="leftmsg">
+                  <view class="msgfuli" style="  display: inline-block">s123123</view>
+                  <view class="msgfuli" style="  display: inline-block">456789</view>
+
+            </view>
+            <view class="rightmsg msgjifen"> 反2000积分</view>
+          </view>
+
+
+          <view class="clearfloat">
+            <view class="leftmsg msgoffice">深圳富士康有限公司</view>
+            <view class="rightmsg msgaddress"> 深圳福田区</view>
+          </view>
+
+      </view>
+      </view>
+     <view style=" border-bottom: 5px solid #f6f6f6;"> </view>
+  </view>
+
+
+  </view>
+</view>

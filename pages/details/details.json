@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "i-icon": "../../dist/icon/index"
+  },
+    "navigationBarTitleText": "职位详情"
+    
+}

@@ -1,0 +1,15 @@
+<view class="hearder">
+  <view class="heard">
+      <image src="/static/image/11.png"></image>
+  </view>
+  <view class="form">
+       <input  class="searchinput" value="{{ value }}"  autofocus placeholder="请输入姓名" />
+       <input  class="searchinput" value="{{ value }}"  autofocus placeholder="请输入姓名" />
+       <input  class="searchinput" value="{{ value }}"  autofocus placeholder="请输入姓名" />
+       <input  class="searchinput" value="{{ value }}"  autofocus placeholder="请输入姓名" />
+       <view class="message">注：提供虚假信息者，平台将进行封号处理。</view>
+       <view class="tijiao">提交审核 </view>
+  </view> 
+
+
+</view>

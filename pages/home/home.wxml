@@ -1,0 +1,96 @@
+<view class="container">
+  <view class="hearder">
+    <image  style="width:100%"  src='/static/image/3.png'>   </image>
+  </view>
+  <view class="guanli">
+      <image  src="/static/image/9.png"></image>
+  </view>
+  
+
+  <view class="contents">
+  <view class="content clearfloat">
+      <view class="leftschool">
+            <image src="/static/image/19.png"></image>
+      </view>
+      <view  class="rightjieshao">
+               <view class="massage">
+        <view class="mascontent">
+
+          <view class="clearfloat">
+            <view class="leftmsg masname">成人大学（本科学历）</view>
+            <view class="rightmsg masprice">￥5000</view>
+          </view>
+
+
+          <view class="clearfloat">
+            <view class="leftmsg  leftscl">
+                     学历找工作升职又加薪
+            </view>
+            <view class="rightmsg msgjifen"> ￥6880</view>
+          </view>
+
+
+          <view class="clearfloat">
+              <view class="leftmsg">
+                      <view class="msgfuli" style="  display: inline-block">新生专享</view>
+                      <view class="msgfuli" style="  display: inline-block">新生专享</view>
+                </view>
+            <view class="rightmsg msgaddress"> 报考</view>
+          </view>
+
+              </view>
+         </view>
+      </view>
+    <view>
+  </view>
+  </view>
+    <view class="content">
+      <view class="leftschool">
+            <image src="/static/image/19.png"></image>
+      </view>
+      <view  class="rightjieshao">
+               <view class="massage">
+        <view class="mascontent">
+
+          <view class="clearfloat">
+            <view class="leftmsg masname">成人大学（本科学历）</view>
+            <view class="rightmsg masprice">￥5000</view>
+          </view>
+
+
+          <view class="clearfloat">
+            <view class="leftmsg  leftscl">
+                     学历找工作升职又加薪
+            </view>
+            <view class="rightmsg msgjifen"> ￥6880</view>
+          </view>
+
+
+          <view class="clearfloat">
+              <view class="leftmsg">
+                      <view class="msgfuli" style="  display: inline-block">新生专享</view>
+                      <view class="msgfuli" style="  display: inline-block">新生专享</view>
+                </view>
+            <view class="rightmsg msgaddress"> 报考</view>
+          </view>
+
+              </view>
+         </view>
+      </view>
+
+
+
+
+
+    <view>
+
+
+
+
+
+
+
+  </view>
+  </view>
+</view>
+</view>

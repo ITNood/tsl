@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "i-input": "../../dist/input/index",
+      "i-icon": "../../dist/icon/index"
+  },
+  "navigationBarBackgroundColor": "#000",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "U+人才"
+}

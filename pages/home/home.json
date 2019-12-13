@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "i-card": "/dist/card/index"
+  },
+  "navigationBarBackgroundColor": "#000",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "教育"
+}

@@ -1,0 +1,126 @@
+.swiper{
+  height: 250px;
+}
+.container{
+  font-size: 14px
+}
+.hear{
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.left{
+  width: 80%
+}
+.right{
+  background-color: #2e73ff;
+  width: 25%;
+  border-radius:  0  6px  6px  0
+}
+.searchinput{
+  background-color: #f6f6f6;
+  font-size: 11px;
+  padding: 7px 5px 7px 18px;
+  width: 70%;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: #acacac;
+  border-radius:  10px 0 0 10px  
+}
+.title,.picker{
+    width: 90%;
+  margin: 0 auto;
+ display: flex;
+
+}
+.massage{
+   width: 90%;
+  margin: 0 auto;
+}
+.title{
+height: 20px
+}
+.titleleft{
+  width: 3px;
+  background-color: #2e73ff;
+}
+.titletight{
+  font-weight: 700;
+  font-size: 14px;
+  padding-left: 5px;
+}
+.address{
+  margin-top: 15px;
+    font-size: 14px;
+  font-weight: 540;
+  text-align: center;
+ 
+  padding: 0px 0 13px
+}
+.addleft,addright{
+  width: 50%;
+}
+.sosuo{
+  width: 20px;
+  height: 20px;
+  margin-left: 40%;
+  margin-top: 8px;
+}
+.leftmsg{
+  float: left;
+}
+.rightmsg{
+  float:right;
+}
+.clearfloat{
+   display: block;
+   clear: both;/*清除两侧浮动*/
+}
+.fuli{
+  display: flex
+}
+.masname,.masprice{
+  font-weight: 700;
+  font-size: 14px;
+}
+.masprice{
+   font-weight: 600;
+  font-size: 12px;
+  color: red
+}
+.mascontent{
+  padding-top: 15px;
+  line-height: 1.7;
+
+}
+.msgjifen{
+  color: #3d94f3;
+   font-weight: 600;
+
+  font-size: 11px
+}
+.massage{
+  height: 95px;
+
+}
+.msgfuli{
+  background-color: #f6f6f6;
+  font-size: 11px;
+  font-weight: 500;
+  color: #acacac;
+  text-align: center;
+  padding:  1px;
+  margin-right: 5px;
+}
+.msgoffice{
+   font-weight: 600;
+  font-size: 12px;
+  color: black
+}
+.msgaddress{
+  color: #acacac;
+  font-size: 11px
+
+}

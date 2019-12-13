@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+      "i-input": "../../dist/input/index",
+      "i-panel": "../../dist/panel/index",
+        "i-icon": "../../dist/icon/index",
+        "i-radio-group": "../../dist/radio-group/index",
+        "i-radio": "../../dist/radio/index"
+      
+  },
+    "navigationBarTitleText": "提交报名"
+}

@@ -1,0 +1,65 @@
+
+
+<view class="content">
+ <view class="massage"  bindtap="godetails">
+        <view class="mascontent">
+          <view class="clearfloat">
+            <view class="leftmsg masname">普工/正式工</view>
+            <view class="rightmsg masprice"> 400-5000/月</view>
+          </view>
+          <view class="clearfloat">
+            <view class="leftmsg">
+                  <view class="msgfuli" style="  display: inline-block">五险一金</view>
+                  <view class="msgfuli" style="  display: inline-block">五险一金</view>
+            </view>
+            <view class="rightmsg msgjifen"> 反2000积分</view>
+          </view>
+      </view>
+      </view>
+    <view style=" border-bottom: 5px solid #f6f6f6;margin-top: 25px"> </view>
+
+
+
+</view>
+
+<view class="bgcmap" >
+    <view class="title clearfloat">
+      <view class='titleleft'></view>
+      <view class="titletight">工作地点</view>
+    </view>
+    <view class="titletight titlemsg">富士康有限公司</view>
+     <view class="clearfloat addressmsg">
+          <view class="leftmsg addressto">深圳市宝安区xxxx</view>
+          <view class="rightmsg"> <i-icon type="enter" size="25" color="black" /></view>
+    </view>
+</view>
+ <view style=" border-bottom: 5px solid #f6f6f6;margin-top: 25px"> </view>
+<view class="title clearfloat title1">
+      <view class='titleleft'></view>
+      <view class="titletight">职位描述</view>
+</view>
+
+ <view class="news">
+ 富士康大量招聘普工小时工，要求年龄18岁以上，工作也相对轻松。包吃住，正式工底薪+加班费。  
+</view>
+<view class="news">
+ 富士康大量招聘普工小时工，要求年龄18岁以上，工作也相对轻松。包吃住，正式工底薪+加班费。  
+</view>
+
+<view class="news">
+  <view>
+  招聘岗位：</view> 
+ 富士康大量招聘普工小时工，要求年龄18岁以上，工作也相对轻松。包吃住，正式工底薪+加班费。  
+</view>
+<view class="news">
+  <view>招聘要求：</view> 
+  <view> 1，年龄18-40</view> 
+  <view> 2，有效二代身份证</view> 
+</view>
+
+
+<view class="bottom">
+  <view class="bottomleft"><i-icon type="send" size="22" />分享</view>
+  <view class="bottomright" bindtap="gototijiao">提交报名</view>
+</view>
+

@@ -1,0 +1,142 @@
+/* pages/home/home.wxss */
+
+.hearder{
+  height: 250px
+}
+
+.guanli image{
+  height: 95px;
+  width: 100%
+}
+.guanli{
+  width: 90%;
+  margin:  0 auto;
+  margin-top: 10px;
+}
+.guanli .shiliang{
+ height: 55px;
+ width: 55px;
+ margin-bottom: 10px;
+}
+.content{
+  height: 115px;
+  border-bottom: 5px solid #f6f6f6;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+.leftschool{
+  float: left;
+}
+.rightjieshao{
+  float: right
+}
+.leftschool image{
+  width: 80px;
+  height: 97px;
+}
+.rightjieshao{
+  width: 77%;
+  height: 100px
+}
+
+.massage{
+   width: 90%;
+  margin: 0 auto;
+}
+.title{
+height: 20px
+}
+.titleleft{
+  width: 3px;
+  background-color: #2e73ff;
+}
+.titletight{
+  font-weight: 700;
+  font-size: 14px;
+  padding-left: 5px;
+}
+.address{
+  margin-top: 15px;
+    font-size: 14px;
+  font-weight: 540;
+  text-align: center;
+ 
+  padding: 0px 0 13px
+}
+.addleft,addright{
+  width: 50%;
+}
+.sosuo{
+  width: 20px;
+  height: 20px;
+  margin-left: 40%;
+  margin-top: 8px;
+}
+.leftmsg{
+  float: left;
+  
+}
+.leftscl{
+  font-weight: 400;
+  font-size: 11px;
+  color: #acacac
+}
+.rightmsg{
+  float:right;
+}
+.clearfloat{
+   display: block;
+   clear: both;/*清除两侧浮动*/
+}
+.fuli{
+  display: flex
+}
+.masname,.masprice{
+  font-weight: 700;
+  font-size: 14px;
+}
+.masprice{
+   font-weight: 600;
+  font-size: 12px;
+  color: red
+}
+.mascontent{
+  padding-top: 15px;
+  line-height: 2;
+}
+.msgjifen{
+  color: #acacac;
+   font-weight: 600;
+  font-size: 12px;
+  text-decoration:line-through;
+}
+.massage{
+  height: 95px;
+
+}
+.msgfuli{
+  border: 1px solid #acacac;
+  font-size: 11px;
+  font-weight: 500;
+  color: #acacac;
+  text-align: center;
+  margin-right: 5px;
+  line-height: 1.5;
+  padding: 3px 10px  3px; 
+  border-radius: 3px;
+}
+.msgoffice{
+   font-weight: 600;
+  font-size: 12px;
+  color: black
+}
+.msgaddress{
+  color: white;
+  background-color: #3d94f3;
+  border-radius: 20px;
+  font-size: 11px;
+  padding: 2px 20px 2px 20px;
+  font-weight: 600;
+
+}

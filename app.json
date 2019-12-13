@@ -1,0 +1,55 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/user/user",
+    "pages/home/home",
+    "pages/list/list",
+    "pages/lssue/lssue",
+    "pages/tijiao/tijiao",
+    "pages/details/details"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "static/image/index.png",
+        "iconPath": "static/image/index.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "static/image/jiaoyu.png",
+        "iconPath": "static/image/jiaoyu.png",
+        "pagePath": "pages/home/home",
+        "text": "教育"
+      },
+      {
+        "selectedIconPath": "static/image/+.png",
+        "iconPath": "static/image/+.png",
+        "pagePath": "pages/lssue/lssue",
+        "text": "发布"
+      },
+      {
+        "selectedIconPath": "static/image/55.png",
+        "iconPath": "static/image/55.png",
+        "pagePath": "pages/list/list",
+        "text": "通知"
+      },
+      {
+        "selectedIconPath": "static/image/56.png",
+        "iconPath": "static/image/56.png",
+        "pagePath": "pages/user/user",
+        "text": "我"
+      }
+    ]
+  }
+}
